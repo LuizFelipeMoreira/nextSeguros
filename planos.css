@@ -1,0 +1,10 @@
+.Plano {
+  height: 700px;
+  background: var(--darkBlue);
+  margin-bottom: 100px;
+}
+
+.background {
+  height: 20%;
+  background: linear-gradient(175deg, var(--branco) 26%, var(--darkBlue) 26%);
+}

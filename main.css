@@ -1,0 +1,44 @@
+.main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--darkBlue);
+}
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.informacoes {
+}
+
+.informacoes h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+.informacoes span {
+  color: red;
+}
+
+.informacoes p {
+  color: white;
+  font-size: 1.25rem;
+  max-width: 80ch;
+  margin-bottom: 60px;
+}
+
+.botao {
+  color: white;
+  border-radius: 10px;
+  font-size: 1.75rem;
+  display: inline-block;
+  background: var(--red);
+  padding: 12px 20px;
+}
+
+.botao:hover {
+  background: rgb(199, 2, 2);
+}
