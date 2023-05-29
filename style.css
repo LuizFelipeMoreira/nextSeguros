@@ -8,6 +8,7 @@
   --darkHeade: rgb(2, 2, 66);
   --branco: rgb(255, 255, 255);
   --red: rgb(255, 0, 0);
+  --cinzaClaro: #e4e4e4;
 }
 
 body {
@@ -23,6 +24,19 @@ body {
 .container1 {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.botao1 {
+  color: white;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  display: inline-block;
+  background: var(--red);
+  padding: 12px;
+}
+
+.botao1:hover {
+  background: rgb(199, 2, 2);
 }
 
 h1,
