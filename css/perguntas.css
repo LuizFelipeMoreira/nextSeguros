@@ -38,10 +38,27 @@
 }
 
 .pergunta dd {
+  display: none;
   padding-top: 10px;
   max-width: 100ch;
 }
 
 .perguntas {
   margin-bottom: 60px;
+}
+
+.pergunta dd.ativo {
+  display: block;
+  opacity: 1;
+  animation: mostrar 0.3s;
+}
+
+@keyframes mostrarDD {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transition: 0.3s;
+  }
 }

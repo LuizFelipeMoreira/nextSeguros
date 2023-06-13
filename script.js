@@ -1,6 +1,5 @@
-const linksInternos = document.querySelectorAll('a[href^="#"');
-
 function scrollSuave() {
+  const linksInternos = document.querySelectorAll('a[href^="#"');
   function scrollar(link) {
     link.preventDefault();
     const id = link.currentTarget.getAttribute("href");
@@ -18,3 +17,19 @@ function scrollSuave() {
 }
 
 scrollSuave();
+
+function perguntaFrequente() {
+  const perguntas = document.querySelectorAll(".perguntas-lista dt");
+
+  console.log(perguntas);
+
+  function mostrarResposta() {
+    this.nextElementSibling.classList.toggle("ativo");
+  }
+
+  perguntas.forEach((pergunta) => {
+    pergunta.addEventListener("click", mostrarResposta);
+  });
+}
+
+perguntaFrequente();
