@@ -1,0 +1,57 @@
+.footer-bg {
+  background: var(--darkHeade);
+}
+
+.footer-conteudo {
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-items: flex-end;
+}
+.logo-footer h1 {
+  color: var(--branco);
+  font-size: 3rem;
+  line-height: 0.5;
+  font-weight: bold;
+}
+
+.logo-footer span {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--red);
+}
+
+.enderecos a + a {
+  display: block;
+  margin-top: 20px;
+}
+
+.enderecos a {
+  color: aliceblue;
+  font-size: 1.125rem;
+}
+
+.redes {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.links-internos {
+  font-size: 1.125rem;
+}
+
+.links-internos a {
+  color: var(--branco);
+}
+
+.links-internos li + li {
+  margin-top: 20px;
+}

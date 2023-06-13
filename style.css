@@ -3,6 +3,7 @@
 @import url("./css/importancia.css");
 @import url("./css/planos.css");
 @import url("./css/perguntas.css");
+@import url("./css/footer.css");
 
 :root {
   --darkBlue: rgb(2, 2, 75);
