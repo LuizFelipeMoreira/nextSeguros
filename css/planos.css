@@ -21,7 +21,7 @@
   display: grid;
   background: var(--darkHeade);
   align-self: end;
-  padding: 30px;
+  padding: 50px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s;
@@ -44,7 +44,7 @@
 .plano-item p {
   color: var(--branco);
   margin-bottom: 20px;
-  font-size: 1.75rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -57,16 +57,16 @@
 .plano-item li::before {
   content: "";
   display: inline-block;
-  background: url("./icones/verifica\ \(1\).png") no-repeat;
+  background: url("../icones/verifica\ \(1\).png") no-repeat;
   margin-right: 5px;
   width: 18px;
   height: 18px;
 }
 .plano-item li:last-child {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .plano-item li + li {
-  margin-top: 10px;
+  margin-top: 30px;
   color: var(--branco);
 }
