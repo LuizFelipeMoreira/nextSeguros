@@ -1,0 +1,43 @@
+.conteudo-perguntas dt {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.conteudo-perguntas dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 6px;
+  background-color: var(--red);
+}
+
+.conteudo-perguntas dt::after {
+  content: "";
+  background: url("../icones/up-chevron\ \(1\).png");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  transition: 0.3s;
+}
+
+.conteudo-perguntas dt:hover::after {
+  transform: rotate(180deg);
+}
+
+.perguntas-lista div:nth-child(odd) {
+  background: #ececec;
+}
+
+.pergunta {
+  padding: 20px;
+}
+
+.pergunta dd {
+  padding-top: 10px;
+  max-width: 100ch;
+}
