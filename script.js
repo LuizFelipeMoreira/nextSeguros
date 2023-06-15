@@ -21,9 +21,8 @@ scrollSuave();
 function perguntaFrequente() {
   const perguntas = document.querySelectorAll(".perguntas-lista dt");
 
-  console.log(perguntas);
-
   function mostrarResposta() {
+    this.classList.toggle("ativo");
     this.nextElementSibling.classList.toggle("ativo");
   }
 

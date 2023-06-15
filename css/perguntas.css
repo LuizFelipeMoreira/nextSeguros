@@ -25,7 +25,7 @@
   transition: 0.3s;
 }
 
-.conteudo-perguntas dt:hover::after {
+.conteudo-perguntas dt.ativo::after {
   transform: rotate(180deg);
 }
 
