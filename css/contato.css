@@ -1,0 +1,22 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.dados {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.dados li {
+  background: var(--darkBlue);
+  max-width: max-content;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 5px;
+}
+.dados li + li {
+  margin-top: 20px;
+}

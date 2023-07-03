@@ -5,7 +5,7 @@
 @import url("./css/perguntas.css");
 @import url("./css/footer.css");
 @import url("./css/modal.css");
-
+@import url("./css/contato.css");
 :root {
   --darkBlue: rgb(2, 2, 75);
   --darkHeade: rgb(2, 2, 66);
