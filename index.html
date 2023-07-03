@@ -25,7 +25,7 @@
           <li><a href="#perguntas">Informacoes</a></li>
           <li><a href="#planos">Planos</a></li>
           <li><a href="#contato">Contato</a></li>
-          <li><a href="./">Cadastre-se já</a></li>
+          <li><a data-cadastro href="./">Cadastre-se já</a></li>
         </ul>
       </nav>
     </div>
@@ -226,7 +226,20 @@
     </div>
   </footer>
 
-  <script src="./script.js"></script>
+  <div data-modalContainer class="modal-container">
+    <div data-modal class="modal">
+      <button data-fechar class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="email">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Cadastrar</button>
+      </form>
+
+    </div>
+  </div>
+  <script type="module" src="./JS/script.js"></script>
 </body>
 
 </html>

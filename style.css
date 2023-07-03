@@ -4,6 +4,7 @@
 @import url("./css/planos.css");
 @import url("./css/perguntas.css");
 @import url("./css/footer.css");
+@import url("./css/modal.css");
 
 :root {
   --darkBlue: rgb(2, 2, 75);

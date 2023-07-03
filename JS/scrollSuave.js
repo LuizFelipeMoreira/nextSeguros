@@ -1,4 +1,4 @@
-function scrollSuave() {
+export default function scrollSuave() {
   const linksInternos = document.querySelectorAll('a[href^="#"');
   function scrollar(link) {
     link.preventDefault();
@@ -15,20 +15,3 @@ function scrollSuave() {
     links.addEventListener("click", scrollar);
   });
 }
-
-scrollSuave();
-
-function perguntaFrequente() {
-  const perguntas = document.querySelectorAll(".perguntas-lista dt");
-
-  function mostrarResposta() {
-    this.classList.toggle("ativo");
-    this.nextElementSibling.classList.toggle("ativo");
-  }
-
-  perguntas.forEach((pergunta) => {
-    pergunta.addEventListener("click", mostrarResposta);
-  });
-}
-
-perguntaFrequente();
