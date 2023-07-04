@@ -20,3 +20,7 @@
 .dados li + li {
   margin-top: 20px;
 }
+
+.mapa {
+  cursor: pointer;
+}

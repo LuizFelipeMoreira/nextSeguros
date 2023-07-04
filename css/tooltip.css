@@ -1,0 +1,12 @@
+.tooltip {
+  max-width: 170px;
+  display: block;
+  position: absolute;
+  color: white;
+  padding: 0.5rem;
+  z-index: 200;
+  background-color: rgb(2, 2, 107);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  box-shadow: 0 0 0 2px var(--red);
+}
