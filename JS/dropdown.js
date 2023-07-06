@@ -20,8 +20,17 @@ function handleClick(event) {
 
 function VerificaClicouFora(element, evento, callback) {
   const html = document.documentElement;
-  html.addEventListener("click", clicouFora);
+  const clicou = "data-clicou";
+  if (!element.hasAttribute(clicou)) {
+    html.addEventListener("click", clicouFora);
+    element.setAttribute(clicou, "");
+  }
   function clicouFora(event) {
-    if (!element.contains(event.target)) callback();
+    console.log("clicou");
+    if (!element.contains(event.target)) {
+      element.removeAttribute(clicou);
+      html.removeEventListener(evento, clicouFora);
+      callback();
+    }
   }
 }
