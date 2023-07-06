@@ -6,6 +6,7 @@
 @import url("./css/footer.css");
 @import url("./css/modal.css");
 @import url("./css/contato.css");
+@import url("./css/dropdownMenu.css");
 @import url("./css/tooltip.css");
 :root {
   --darkBlue: rgb(2, 2, 75);
