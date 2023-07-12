@@ -3,9 +3,10 @@ import perguntaFrequente from "./Perguntas.js";
 import modal from "./modal.js";
 import initTooltip from "./tooltip.js";
 import initDropDown from "./dropdown.js";
-
+import horarioFuncionamento from "./funcionamento.js";
 scrollSuave();
 perguntaFrequente();
 modal();
 initTooltip();
 initDropDown();
+horarioFuncionamento();
